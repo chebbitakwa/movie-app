@@ -1,0 +1,45 @@
+.titre{
+    display: flex;
+    color:gray;
+    
+}
+h5{
+    padding-left: 20px;
+    padding-right: 45px;
+}
+.film{
+    
+    margin-bottom: 25px;
+    width: 17%;
+    background-color: white;
+    box-shadow: 0 4px 20px 0 rgb(12, 12, 12), 0 6px 20px 0 rgb(53, 52, 53);
+}
+
+.hg{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.header{
+    
+    box-shadow: 0 4px 20px 0 rgb(12, 12, 12), 0 6px 20px 0 rgb(53, 52, 53);  
+    height: 100px;
+}
+.header input{
+    margin-left: 1100px;
+    margin-top:30px;
+    
+    
+}
+input{
+   
+    margin: 5px;
+
+}
+button{
+    margin:5px;
+}
