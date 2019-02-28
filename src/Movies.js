@@ -3,6 +3,7 @@ import Movie from './Movie';
 import Add from './add.js';
 import Rating from './Rating';
 import Header from './Header.js'
+import BasicHoc from './LoaderHoc'
 
 class Movies extends Component {
   constructor(props){
@@ -59,4 +60,4 @@ transfertdata=x=> this.setState({ searchmovie: x })
   }
 }
 
-export default Movies;
+export default BasicHoc (Movies);
